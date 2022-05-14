@@ -14,6 +14,8 @@ body
 	color: black;
 }
 
+
+
 h1, h2, h3
 {
 	margin: 0;
@@ -476,7 +478,7 @@ ul.style3 .icon
 	font-size: 1.1em;
 	text-transform: uppercase;
 	outline: 0;
-	color: ghostwhite;
+	color: gray;
 }
 
 #menu li:hover a
@@ -489,7 +491,7 @@ ul.style3 .icon
 #menu li.current_page_item a
 {
 	background: black;
-	color: whitesmoke;
+	color: gray;
 }
 
 
@@ -909,3 +911,11 @@ img.az
 .span2 { }
 .pan2 img {  MAX-WIDTH:100PX;
     }
+
+#home>a:hover{
+        color: white;
+    }
+
+/* #order{
+    color: rgb(255, 0, 0);
+} */
